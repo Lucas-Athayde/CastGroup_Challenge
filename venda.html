@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+</head>
+
+<body>
+    <h1>Realizar Venda de Produto</h1>
+
+    <fieldset>
+        <legend>Clientes cadastrados:</legend>
+        <div>
+            <select class="menu-dropdown-clientes">
+                <option value="">Selecione um Cliente</option>
+            </select>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Produtos listados:</legend>
+        <div>
+            <select class="menu-dropdown-produtos">
+                <option value="">Selecione uma opcao</option>
+            </select>
+            <select class="qtdProduto">
+                <option value="">Quantidade desejada</option>
+            </select>
+            <button class="adicionar-produtos">Adicionar Produto</button>
+        </div>
+    </fieldset>
+
+    <button class="btnOrcamento">Orçamento</button>
+
+    <a href="index.html">
+        <button>Voltar</button>
+    </a>
+
+    <div>
+        <h3 class="printar"></h3>
+    </div>
+
+    <button class="confirmarVenda">Confirmar Venda</button>
+</body>
+<script src="scriptVendas.js"></script>
+
+</html>
